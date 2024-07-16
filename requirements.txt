@@ -6,3 +6,4 @@ requests>=2.20.0
 pyOpenSSL>=18.0.0
 PyInstaller>=3.4.0
 pycryptodome>=3.7.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
