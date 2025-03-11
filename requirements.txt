@@ -1,8 +1,13 @@
 mss>=3.2.1
 pynput>=1.4
-Flask>=1.0.2
+Flask>=2.2.5
 bcrypt>=3.1.4
-requests>=2.20.0
+requests>=2.31.0
 pyOpenSSL>=18.0.0
 PyInstaller>=3.4.0
 pycryptodome>=3.7.3
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
